@@ -3,11 +3,11 @@ load_dotenv('.env')
 
 from AI.knowledge_agent import KnowledgeAgent
 from Convert.convert import create_folder, create_file
-from typing import List
+from typing import List, Optional
 
 knowledge_agent = KnowledgeAgent()
 
-def generate_knowledge(topic: str, deep: int, previous_context: str = None, memory: List = None):
+def generate_knowledge(topic: str, deep: int, previous_context: Optional[str] = None, memory: Optional[List] = None):
     if memory is None:
         memory = []
 
@@ -30,6 +30,7 @@ def generate_knowledge(topic: str, deep: int, previous_context: str = None, memo
         previous_context = topic
 
     create_file(parent_dir='Content', file_name=topic, text=md_file)
+    print(f"Completed file: {topic}")
 
     links = [
         generate_knowledge(sub_topic, deep - 1, previous_context=previous_context + ' -> ' + sub_topic, memory=memory)
