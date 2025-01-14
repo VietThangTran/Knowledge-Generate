@@ -1,0 +1,12 @@
+Given the input `[INPUT]` [PREVIOUS_CONTEXT]
+analyze the semantic meaning of the subject and break it down into key sub-topics directly related to the subject. Provide the output in a JSON format with the following structure:
+
+```json
+{
+  "topics": [
+    // list of sub-topics directly related to the semantic meaning of the input
+  ]
+}
+```
+
+The value of the `topics` key should be a list of sub-topics that are semantically relevant to the input, focusing on what the user intends to explore. Avoid including related or broader topics.
