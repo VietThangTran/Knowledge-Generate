@@ -1,0 +1,56 @@
+Given the topic `[INPUT]` **[PREVIOUS_CONTEXT]**, and the following list of sub-topics:
+
+```
+[SUB_TOPICS]
+```
+
+Create a well-structured, detailed, and visually appealing Markdown file. The file should provide thorough explanations about the topic and its relevant applications. Focus on clear and engaging formatting, incorporating icons, bullet points, and section dividers. For each topic, make sure to explain key concepts, practical use cases, and examples that will help readers fully understand the subject matter.
+
+### Markdown File Structure:
+1. **Title:**
+   - Use the main topic as the file's title, styled with a bold `#` heading.
+   - Add a relevant icon or emoji (e.g., `📘`, `🌐`, `✨`, `🔑`, `💭`) before the title for visual impact.
+   - Center the title using `<div align="center"></div>` tags.
+
+2. **Introduction:**
+   - Write an engaging introduction (2-3 paragraphs) to introduce the main topic, incorporating the **[PREVIOUS_CONTEXT]** if necessary.
+   - Use a large emoji or icon (e.g., `🌟`, `🚀`, `📖`, `💡`, `🔍`) at the beginning for visual appeal.
+   - Highlight why the topic is important using italicized or bold key phrases.
+
+3. **Core Content Section:**
+   - Title this section **"🔍 Key Insights into [INPUT]"** with a prominent icon.
+   - This section should provide **detailed explanations** for understanding the topic, focusing on:
+     - **General Concept:** Offer a broad overview of the topic's nature and significance. For example, if the topic is related to language, you may explain its function, historical background, and importance. If it’s a technical topic, you might discuss its applications and relevance in current trends.
+     - **Key Components or Structures (if applicable):** Describe the core components, formulas, or patterns of the topic in a clear manner. This could include anything from processes to structures (e.g., in technical topics: "steps in a process," "components of a system," or "functions of a method"). For language topics, you may describe structures like grammar rules, sentence construction, or language patterns. Use **tables**, **bullet points**, or **code blocks** where applicable (e.g., `📚`, `📑`, `📝`, `🔧`, `⚙️`).
+     - **Use Cases:** Describe the practical applications or scenarios where the topic is used. This is the section where the topic's utility and real-world examples are discussed. For example, how a concept might be used in practice or in problem-solving. (e.g., `🎯`, `⚡`, `🛠️`).
+     - **Examples:** Provide formatted examples that demonstrate the topic in real-world contexts. Ensure the examples are practical and easily understandable. (e.g., `🖋️`, `💬`, `📊`).
+     - **Important Notes:** Highlight any key insights, nuances, or common pitfalls related to the topic. For example, misconceptions, advanced tips, or areas where mistakes often occur. (e.g., `⚠️`, `❗`, `🔔`).
+
+4. **Sub-Topics Section:**
+   - Title this section **"🔗 Explore Related Sub-Topics"**, with an engaging icon (e.g., `🔎`, `🌱`, `💡`).
+   - Include a brief description of how the sub-topics are related to the main topic, based on the list `[SUB_TOPICS]`.
+   - For each sub-topic:
+     - Use a subheading in the format `### 🌟 [[sub-topic 1]]`, styled with an icon and double brackets.
+     - Provide a few sentences explaining the sub-topic's relevance and its connection to the main topic.
+     - Include a clickable link in the format `Learn more about [[sub-topic 1]]` (e.g., `🔗`, `📎`, `🌍`).
+
+5. **Examples and Practical Tips:**
+   - Title this section **"💡 Examples & Practical Tips"** with an icon (e.g., `💡`, `⚙️`, `🔑`).
+   - Include 3-5 practical examples that demonstrate the topic’s application (e.g., `🎯`, `📊`, `📝`).
+   - Offer tips, tricks, or best practices to master or better understand the topic (e.g., `💭`, `🗣️`, `📚`).
+
+6. **Additional Resources:**
+   - Title this section **"📚 Further Reading & Resources"**, with a relevant emoji (e.g., `📘`, `📖`, `🔗`).
+   - Provide a list of links, books, articles, or other learning materials for further exploration (e.g., `🌍`, `💼`, `🔍`).
+
+7. **Wrapping Up:**
+   - Conclude the file with a **summary** or **call-to-action**, encouraging readers to apply what they have learned or explore additional resources (e.g., `✨`, `🎉`, `🌈`).
+   - Use a concluding icon (e.g., `✨`, `🔑`, `🏁`) for visual appeal.
+
+### Styling Suggestions:
+- Use horizontal lines (`---`) to separate sections clearly.
+- Add decorative icons (e.g., `🔸`, `⭐`, `⚡`, `⚙️`, `🚀`) to make lists and points visually engaging.
+- Use blockquotes (`>`) for notable or important points (e.g., `💬`, `🔔`, `📝`).
+- For technical topics, include **code blocks**, **tables**, or **lists** to clarify examples or structures (e.g., `💻`, `🖥️`, `🗂️`).
+
+The output must be in valid Markdown syntax, ensuring the file is informative, easy to read, and visually engaging for the user.

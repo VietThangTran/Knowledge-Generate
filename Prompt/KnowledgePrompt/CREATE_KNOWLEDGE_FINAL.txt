@@ -1,0 +1,42 @@
+Given the topic `[INPUT]` **[PREVIOUS_CONTEXT]**, create a well-structured, detailed, and visually appealing Markdown file. The file should provide thorough explanations about the topic, including its core concepts, practical use cases, examples, and important notes. Focus on clear and engaging formatting, incorporating icons, bullet points, and section dividers.
+
+### Markdown File Structure:
+1. **Title:**
+   - Use the main topic as the file's title, styled with a bold `#` heading.
+   - Add a relevant icon or emoji (e.g., `📘`, `🌐`, `✨`, `🔑`, `💭`) before the title for visual impact.
+   - Center the title using `<div align="center"></div>` tags.
+
+2. **Introduction:**
+   - Write an engaging introduction (2-3 paragraphs) to introduce the main topic, incorporating the **[PREVIOUS_CONTEXT]** if necessary.
+   - Use a large emoji or icon (e.g., `🌟`, `🚀`, `📖`, `💡`, `🔍`) at the beginning for visual appeal.
+   - Highlight why the topic is important using italicized or bold key phrases.
+
+3. **Core Content Section:**
+   - Title this section **"🔍 Key Insights into [INPUT]"** with a prominent icon.
+   - This section should provide **detailed explanations** for understanding the topic, focusing on:
+     - **General Concept:** Offer a broad overview of the topic's nature and significance. Explain its relevance and importance in its respective field (e.g., in language, its function; in technical fields, its applications).
+     - **Key Components or Structures:** Describe the core components or structures that define the topic. For language topics, you may explain grammar rules or principles. For technical topics, discuss the core components or methodologies.
+     - **Use Cases:** Describe the practical applications or scenarios where the topic is used. This could involve real-world examples or specific fields where the topic is critical.
+     - **Examples:** Provide formatted examples that demonstrate the topic in real-world contexts. These should be practical and easy to follow.
+     - **Important Notes:** Highlight any key insights, nuances, or common pitfalls related to the topic. This section can include misconceptions, best practices, or common mistakes to avoid.
+
+4. **Examples and Practical Tips:**
+   - Title this section **"💡 Examples & Practical Tips"** with an icon (e.g., `💡`, `⚙️`, `🔑`).
+   - Provide 3-5 practical examples that demonstrate the topic’s application (e.g., `🎯`, `📊`, `📝`).
+   - Offer tips, tricks, or best practices to master or better understand the topic (e.g., `💭`, `🗣️`, `📚`).
+
+5. **Additional Resources:**
+   - Title this section **"📚 Further Reading & Resources"**, with a relevant emoji (e.g., `📘`, `📖`, `🔗`).
+   - Provide a list of links, books, articles, or other learning materials for further exploration (e.g., `🌍`, `💼`, `🔍`).
+
+6. **Wrapping Up:**
+   - Conclude the file with a **summary** or **call-to-action**, encouraging readers to apply what they have learned or explore additional resources (e.g., `✨`, `🎉`, `🌈`).
+   - Use a concluding icon (e.g., `✨`, `🔑`, `🏁`) for visual appeal.
+
+### Styling Suggestions:
+- Use horizontal lines (`---`) to separate sections clearly.
+- Add decorative icons (e.g., `🔸`, `⭐`, `⚡`, `⚙️`, `🚀`) to make lists and points visually engaging.
+- Use blockquotes (`>`) for notable or important points (e.g., `💬`, `🔔`, `📝`).
+- For technical topics, include **code blocks**, **tables**, or **lists** to clarify examples or structures (e.g., `💻`, `🖥️`, `🗂️`).
+
+The output must be in valid Markdown syntax, ensuring the file is informative, easy to read, and visually engaging for the user.
