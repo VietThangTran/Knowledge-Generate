@@ -27,14 +27,7 @@ class Agent:
 
     @staticmethod
     def _get_gemini_api_key():
-        list_keys = [
-            "GEMINI_API_KEY_0",
-            "GEMINI_API_KEY_1",
-            "GEMINI_API_KEY_2",
-            "GEMINI_API_KEY_3",
-            "GEMINI_API_KEY_4",
-            "GEMINI_API_KEY_5"
-        ]
+        list_keys = [x for x in os.environ if 'GEMINI' in x]
         idx = 0
         while True:
             if idx >= len(list_keys):
